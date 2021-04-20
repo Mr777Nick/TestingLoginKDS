@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Testing Login KDS</string>
+    <string name="motto">An easy way to organize orders with a kitchen display system</string>
+    <string name="powered_by">Powered By</string>
+    <string name="yummy_corp">Yummy Corp</string>
 </resources>
