@@ -21,9 +21,61 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pexels_cottonbro_4253301" />
+
+    <TextView
+        android:id="@+id/tvMotto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="An easy way to organize orders with a kitchen display system"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/white"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        android:paddingBottom="100dp"
+        android:paddingHorizontal="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/icYummy"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvMotto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_yummy" />
+
+    <TextView
+        android:id="@+id/tvPoweredBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/inter"
+        android:text="Powered By"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/icYummy"
+        app:layout_constraintTop_toTopOf="@+id/icYummy" />
+
+    <TextView
+        android:id="@+id/tvYummyCorp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/inter"
+        android:text="Yummy Corp"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/icYummy"
+        app:layout_constraintStart_toEndOf="@+id/icYummy" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
