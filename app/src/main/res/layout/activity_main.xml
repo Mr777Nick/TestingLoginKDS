@@ -15,17 +15,15 @@
         app:layout_constraintGuide_begin="0dp"
         app:layout_constraintGuide_percent="0.5" />
 
-    <TextView
-        android:id="@+id/textView6"
+    <com.example.testingloginkds.TopCropImageView
+        android:id="@+id/imageView"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pexels_cottonbro_4253301" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
