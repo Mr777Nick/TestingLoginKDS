@@ -3,4 +3,12 @@
     <string name="motto">An easy way to organize orders with a kitchen display system</string>
     <string name="powered_by">Powered By</string>
     <string name="yummy_corp">Yummy Corp</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="please_log_in">Please log In to your account</string>
+    <string name="email">Email</string>
+    <string name="email_hint">youremail@email.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Your Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log In</string>
 </resources>
